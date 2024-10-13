@@ -1,0 +1,14 @@
+streamlit==1.25.0
+pandas==1.5.3
+numpy==1.23.5
+requests==2.31.0
+plotly==5.15.0
+scikit-learn==1.3.0
+pystan==2.19.1.1
+cmdstanpy==1.1.0
+prophet==1.1.4
+gunicorn==20.1.0        # Required if deploying Dash app
+dash==2.12.1            # Required if using Dash
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-table==5.0.0
