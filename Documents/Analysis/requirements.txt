@@ -3,5 +3,6 @@ pandas
 numpy
 plotly==5.3.1
 prophet==1.1
+cmdstanpy==1.0.4
 scikit-learn
 requests

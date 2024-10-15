@@ -1,0 +1,4 @@
+pipdeptree==2.23.4
+  - packaging [required: >=24.1, installed: 24.1]
+  - pip [required: >=24.2, installed: 24.2]
+setuptools==65.5.0
