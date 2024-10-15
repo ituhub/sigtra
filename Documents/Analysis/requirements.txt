@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+plotly==5.3.1
+prophet==1.1
+scikit-learn
+requests
+plotly.express
+plotly.graph_objects
+datetime
+io
