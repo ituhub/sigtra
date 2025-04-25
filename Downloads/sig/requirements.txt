@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+plotly
+requests
+prophet
+scikit-learn
+xgboost
+deap
+scikit-optimize
+textblob
+tensorflow
