@@ -369,7 +369,7 @@ if __name__ == "__main__":
     selected_ticker = st.sidebar.selectbox("Select Ticker", tickers)
 
     # ✅ Add Disclaimer in sidebar
-    st.sidebar.markdown("""
+    st.markdown("""
     ---
     ### ⚠️ Disclaimer
 
