@@ -368,6 +368,18 @@ if __name__ == "__main__":
     st.title("Enhanced Bot (CNN+LSTM+Attention with Multi-step Forecast and News Sentiment)")
     selected_ticker = st.sidebar.selectbox("Select Ticker", tickers)
 
+    # ✅ Add Disclaimer in sidebar
+    st.sidebar.markdown("""
+    ---
+    ### ⚠️ Disclaimer
+
+    This application is provided for **educational and informational purposes only** and does not constitute financial, investment, or trading advice.  
+    Any decisions based on the output of this tool are **made at your own risk**.  
+    The developer is **not liable** for any losses or damages resulting from use of this application.
+
+    ---
+    """)
+
     st.header("Indices Overview")
     st.write(f"Using Ticker: {selected_ticker}")
 
